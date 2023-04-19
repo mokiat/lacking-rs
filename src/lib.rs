@@ -1,3 +1,3 @@
-pub fn hello_world() -> String {
-    String::from("Hello World!")
-}
+mod math;
+
+pub use math::*;
