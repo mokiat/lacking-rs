@@ -1,0 +1,9 @@
+[package]
+name = "lacking"
+description = "A game engine/framework port from Go"
+version = "0.0.1"
+edition = "2021"
+authors = ["Momchil Atanasov <mokiat@icloud.com>"]
+license = "MIT"
+
+[dependencies]
