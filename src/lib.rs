@@ -1,3 +1,5 @@
-mod math;
+pub mod app;
+pub mod math;
 
-pub use math::*;
+#[cfg(feature = "desktop")]
+pub mod desktop;

@@ -5,7 +5,16 @@ version = "0.0.2"
 edition = "2021"
 authors = ["Momchil Atanasov <mokiat@icloud.com>"]
 license = "MIT"
-repository = "https://github.com/mokiat/rlacking"
+repository = "https://github.com/mokiat/lacking-rs"
 
 [dependencies]
 assert_approx_eq = "1.1.0"
+
+[dependencies.glfw]
+version = "0.51.0"
+optional = true
+
+[features]
+default = []
+desktop = ["glfw"]
+browser = []

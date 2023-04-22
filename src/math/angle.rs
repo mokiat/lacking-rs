@@ -26,7 +26,7 @@ impl Angle {
 }
 
 #[cfg(test)]
-mod tests {
+pub(crate) mod tests {
 
     use super::*;
     use assert_approx_eq::assert_approx_eq;
