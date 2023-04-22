@@ -1,6 +1,6 @@
 # Lacking Game Engine
 
-![logo](logo.png)
+![logo](https://raw.githubusercontent.com/mokiat/lacking-rs/master/logo.png)
 
 This project is a port of my WIP hobby game engine/framework [lacking](https://github.com/mokiat/lacking) originally written in Go into another language that shall not be named. Until the `you-know-which` language has cleared up its trademark policy, this port is mostly frozen.
 
