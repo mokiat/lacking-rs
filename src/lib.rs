@@ -1,3 +1,5 @@
-pub fn hello_world() -> String {
-    String::from("Hello World!")
-}
+pub mod app;
+pub mod math;
+
+#[cfg(feature = "desktop")]
+pub mod desktop;
